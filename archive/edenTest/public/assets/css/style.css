@@ -1,0 +1,71 @@
+/** COLOUR PALLETTE
+* Darkest Red -> #993333
+* Medium Red -> #ad1f25
+* Light Red -> #e82e2d
+* Fuschia -> #e45b8d
+* Dusky Pink -> #cb9898
+* Green -> #afc74b
+*/
+
+/*
+body {
+    font-size: 6em;
+}
+p {
+    font-size: 1em;
+}
+h6 {
+    font-size: 6.2rem;
+}
+h5 {
+    font-size: 6.3rem;
+}
+h4 {
+    font-size: 6.5rem;
+}
+h3 {
+    font-size: 8rem;
+}
+h2 {
+    font-size: 8.5rem;
+}
+h1 {
+    font-size: 9rem;
+}
+*/
+
+#logo-img {
+    width: 40%;
+}
+
+.navbar-default {
+    background-color: #000;
+    height: 220px;
+}
+
+#small-menu ul li a h4 {
+    color: #FFF;
+}
+
+#page-content-wrapper {
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+ul.nav.navbar-nav {
+    width: 300px;
+    margin-top: -30px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.form-control {
+    /*height: 80px;*/
+}
+
+#nav-footer{
+    background-color: #000;
+}

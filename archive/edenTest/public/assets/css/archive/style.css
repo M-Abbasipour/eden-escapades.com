@@ -1,0 +1,181 @@
+/* *** GENERAL *** */
+body {
+    font-family: 'Droid Sans', sans-serif;
+    margin-top: 70px;
+    font-size: 1em;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #ad1f25;
+}
+ul {
+    list-style: none; 
+    margin-left: -1.5em;
+}
+.glyphicon{
+  line-height: 1em;
+}
+.panel {
+    border-radius: 0;
+}
+
+/* *** PROFILE BAR *** */
+#profile-bar {
+   min-height:30px;
+}
+#profile-bar-list li a:first-child {
+    padding-left: 0;
+}
+#profile-bar-list li a p{
+    margin-bottom: 0;
+}
+
+/* *** NAV BAR *** */
+.navbar {
+    height: 70px;
+}
+#nav-bar {
+    margin-bottom: 0;
+}
+.navbar-default{
+    background-color: black;
+    border: none;
+    border-radius: 0;
+}
+
+/* *** MENU *** */
+#menu-icon {
+    margin-top: 15px;
+    font-size: 40px;
+    color: white;
+}
+#small-menu ul li a h5{
+    color: white;
+}
+#small-menu ul li a h5:hover {
+    color: #e82e2d;
+}
+#small-menu {
+    margin-top: -8px;
+}
+#menu-toggle {
+    margin-top: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 20px;
+}
+
+/* *** LOGO *** */
+#logo-img {
+    width: 9.5%;
+    margin-top: -12px;
+}
+
+/* *** SIDEBAR *** */
+.sidebar-nav li a {
+    color: white;
+}
+.sidebar-nav li a:hover {
+    color: #e82e2d;
+}
+.sidebar-brand a h2{
+    color: white;
+}
+
+/* *** FOOTER *** */
+#nav-footer {
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    height: 30px;
+}
+#signout a {
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+/* *** TYPEFACE *** */
+.header h3 {
+    color: #fff;
+    font-size: 1.8em;
+}
+h2, h3, h4 {
+    color: #fff;
+}
+.centred h3, p, h1, h2, h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* *** Layout *** */
+.marker {
+    background-color: white;
+    text-align: center;
+    border-color: grey;
+    border-style: solid;
+}
+.left {
+    background-color: #af2323;
+    text-align: center;
+    color: #fff;
+}
+.right {
+    background-color: #e45c8e;
+    text-align: center;
+    line-height: 100%;
+    color: #fff;
+}
+.centre {
+    background-color: #ff8b5c;
+    text-align: center;
+    color: #fff;
+}
+.centred {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* *** div heights *** */
+.h60 {
+    height: 60px;
+}
+.h120 {
+    height: 120px;
+}
+.h240 {
+    height: 240px;
+}
+.h270 {
+    height: 270px;
+}
+.h320 {
+    height: 320px;
+}
+.h330 {
+    height: 330px;
+}
+.h400 {
+    height: 400px;
+}
+.h420 {
+    height: 420px;
+}
+
+/* *** layout adjustments *** */
+.border {
+    border: 5px solid #fff;
+}
+#wrapper {
+    padding-bottom: 45px;
+}
+
+/* *** section header *** */
+.header {
+    background-color: #000;
+    text-align: center;
+    color: #fff
+}

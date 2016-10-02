@@ -1,0 +1,163 @@
+/* ***** CUSTOM CSS ***** */
+
+/*theme colours 
+
+dark green: 4b6830
+light green: afc74b
+
+dark orange: #d67550
+light orange: #f3733f
+
+dark pink: #e45b8d
+light pink: #cb9898
+
+very dark red: #993333
+dark red: #ad1f25
+light red: #e822d
+
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Ubuntu';
+
+body {
+    font-family: 'Droid Sans', sans-serif;
+    padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, .welcome-title, .welcome-about, .welcome-desc {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.dark-green {color: #4b6830}
+.light-green {color: #afc74b}
+.dark-orange {color: #d67550}
+.light-orange {color: #f3733f}
+.dark-pink {color: #e45b8d}
+.light-pink {color: #cb9898}
+.very-dark-red {color: #993333}
+.dark-red {color: #ad1f25}
+.light-red {color: #e82e2d}
+
+.centering {
+  float:none;
+  margin:0 auto;
+}
+
+/* TOPBAR */
+.topbar {
+    background: #000;
+    height: 60px;
+}
+.search-input input {
+    padding: 10px;
+    margin-top: 12px;
+    width: 280px;
+}
+#search {
+    width: 100px;
+    font-size: 20px;
+    padding: 6px;
+}
+/* CONTENT PAGE */
+.welcome-inner {
+    color: #000;
+}
+.content-welcome {
+    background-color: #fff;
+}
+#content {
+    background: none;
+    padding: 65px 0 140px 0;
+}
+.welcome-title, .dashboard-info a, .neutral {
+    color: #afc74b;
+}
+.register-button, .login-button {
+    background: #e45b8d;
+}
+.register-button:hover, .login-button:hover {
+    background: #d67550;
+}
+button.register-button {
+    margin-top: 10px;
+}
+select#short {
+    width: 100%;
+    border: lightgray 1px solid;
+    min-height: 40px;
+    font-size: 14px;
+}
+.ic-mid {
+    padding: 5em 0;
+}
+.center {
+    text-align: center;
+}
+.page-content {
+    color: #000;
+    box-shadow: #000;
+    border: 1px solid #000;
+}
+.page-header {
+    color: #000;
+}
+.logo {
+    width: 24%;
+    margin-top: 8px;
+}
+#notifications_btn, #messages_btn,#friends_btn {
+    width: 30px;
+    margin-top:9px;
+}
+.menu-image {
+    margin-top:9px;
+}
+/* HOME PAGE */
+.home-icon {
+    text-align: center;
+}
+.home-icon h2 {
+    font-size: 22px;   
+}
+/* FOOTER */
+.footer-links a, .footer-languages a {
+    color: #f3733f;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: darkgray;
+}
+
+.footer-container {
+    color: #FFF;
+}
+ 
+.search-input {
+    display: none;
+}
+/* MEDIA QUERIES */
+@media screen and (min-width: 990px) {
+    #search {
+        width: 500px;
+    }
+    .fa-5x {
+        font-size: 10em;
+    }
+    i {
+        padding: 0.2em 0.5em;
+    }
+    .inner-container {
+        padding: 1em;
+    }
+    #content {
+       
+    }
+    .search-input {
+        display: block;
+        margin-top:-3px;
+    }
+}

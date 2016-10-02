@@ -1,0 +1,57 @@
+/* ***** CUSTOM CSS ***** */
+
+/*theme colours 
+
+dark green: 4b6830
+light green: afc74b
+
+dark orange: #d67550
+light orange: #f3733f
+
+dark pink: #e45b8d
+light pink: #cb9898
+
+very dark red: #993333
+dark red: #ad1f25
+light red: #e82e2d
+
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Ubuntu';
+
+body {
+    font-family: 'Droid Sans', sans-serif;
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6, .label {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#wrapper {
+    text-align: center;
+}
+
+.form-wrapper {
+    text-align: center;
+}
+
+.btn-default {
+    background-color: #cb9898;
+}
+
+.btn-default:hover {
+    background-color: #e45b8d;
+}
+
+.form-control, .btn {
+    border-radius: 0;
+}
+
+.form-control {
+    border: 1px solid #4b6830;
+}
+
+#response {
+    color: #ad1f25;
+}

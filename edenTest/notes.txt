@@ -1,0 +1,359 @@
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=8889
+DB_DATABASE=eden
+DB_USERNAME=root
+DB_PASSWORD=root
+
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=edenesca_network
+DB_USERNAME=edenesca
+DB_PASSWORD=Unicorn78
+
+** TO DO **
+--> position of 'sign out' on landscape view (height of sidebar)
+
+
+
+<!-- container row -->
+<div class="row">
+<!-- set size of container row --> 
+<div class="col-xs-12">
+     
+    <!-- page header -->
+    <div class="panel panel-default">
+        <div class="page-title panel-heading">
+            <h4 class="panel-title">
+                <a href="{{ route('dashboard.index') }}"><h1>DASHBOARD</h1></a>
+            </h4>
+        </div>
+    </div>
+
+    <div class="main-content">
+        
+        <!-- CENTRE CONTENT -->
+        <div class="centre-content">
+            
+            <!-- buttons -->
+            <div class="centre-buttons">
+                
+            <div class="col-xs-12"><h3>STATUS</h3></div>
+            <div class="col-xs-12">row 2</div>
+            <div class="col-xs-12">row 3</div>
+            </div>
+
+            <!-- status -->
+            <div class="col-xs-12 search">
+                <h3>SEARCH</h3>
+            </div>
+              
+                 <!--
+                <div class="col-xs-6">
+                    <p>MESSAGES</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>FRIENDS</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>MATCHES</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>GALLERY</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>PROFILE</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>ACCOUNT</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>VERIFICATIONS</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>ADVERTS</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>NOTES</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>GROUPS</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>TIMELINE</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>MEET TODAY</p>
+                </div>
+                -->
+         
+        </div>
+       
+        <!-- *** ROW > ACCORDION *** -->
+        <div class="panel-group" id="accordion">
+
+        <!-- ** WHO'S LOOKED AT ME ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                        <h3>WHO'S LOOKED AT ME</h3>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ** LATEST VERIFICATIONS ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                        <h3>LATEST VERIFICATIONS</h3>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ** FRIENDS' UPDATES ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                        <h3>FRIENDS' UPDATES</h3>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ** FRIENDS' PHOTOS ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                <h3>FRIENDS' PHOTOS</h3>
+            </a>
+        </h4>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ** REFER A FRIEND ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        <h3>REFER A FRIEND</h3>
+        </a>
+        </h4>
+        </div>
+        <div id="collapse5" class="panel-collapse collapse">
+                  <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+        <!-- ** SPECIAL OFFERS ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+        <h3>SPECIAL OFFERS</h3>
+        </a>
+        </h4>
+        </div>
+        <div id="collapse6" class="panel-collapse collapse">
+                  <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ** UPGRADE OPTIONS ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+        <h3>UPGRADE OPTIONS</h3>
+        </a>
+        </h4>
+        </div>
+        <div id="collapse7" class="panel-collapse collapse">
+                    <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ** DATE/TIME ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+        <h3>DATE/TIME</h3>
+        </a>
+        </h4>
+        </div>
+        <div id="collapse8" class="panel-collapse collapse">
+                <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ** LATEST PHOTOS ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+        <h3>LATEST PHOTOS</h3>
+        </a>
+        </h4>
+        </div>
+        <div id="collapse9" class="panel-collapse collapse">
+                <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ** FEATURED USERS ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+        <h3>FEATURED USERS</h3>
+        </a>
+        </h4>
+        </div>
+        <div id="collapse10" class="panel-collapse collapse">
+                <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ** HELP AND SUPPORT ** -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+        <h3>HELP AND SUPPORT</h3>
+        </a>
+        </h4>
+        </div>
+        <div id="collapse11" class="panel-collapse collapse">
+                <div class="panel-body centre_content">
+                    <h3>content goes here</h3>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                    <p>this is more content.</p>
+                </div>
+            </div>
+        </div>
+
+        </div><!-- end of accordion -->
+        
+    </div>
+    </div><!-- end of centre section -->
+</div><!-- end of container row -->
+
+
+/* *** DASHBOARD > LEFT SECTION HEADERS *** */
+.panel-default>.left-heading {
+    background-color: #af2323;
+}
+
+/* *** DASHBOARD > RIGHT SECTION HEADERS *** */
+.panel-default>.right-heading {
+    background-color: #e45c8e;
+}
+
+/* *** DASHBOARD > PAGE HEADER TITLE *** */
+.panel-default>.page-title {
+    background-color: #000;
+}
+/* *** DASHBOARD > MAIN SECTION *** */
+.main-content {
+    margin-top: -10px
+}
+
+/* *** DASHBOARD > CENTRE SECTION *** */
+.centre-content div {
+    background-color: #ff8b5c;
+    outline: solid 2px red;
+   
+}
+#accordion {
+   outline: blue 2px solid;
+}
+
+.left_content {
+    background-color: #af2323;
+    height: auto;
+}
+
+.right_content {
+    background-color: #e45c8e;
+    height: auto;
+}

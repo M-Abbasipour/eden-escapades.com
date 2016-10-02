@@ -1,0 +1,129 @@
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) and (max-width : 992px) {
+        #profile-bar-list li a:first-child {
+            padding-left: 15px;
+        } 
+        #menu-toggle {
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        #logo-img {
+            width: 130px;
+        }
+        .navbar-form {
+            margin: 0;
+        }
+        #menu-icon {
+            margin-top: -2.5em;
+            margin-left: 10px;
+            font-size: 2em;
+        }
+        #small-menu ul {
+            display: inline-flex;
+        }
+        .navbar {
+            height: 200px;
+        }
+        body {
+            font-size: 6em;
+        }
+        .sidebar-nav li {
+            line-height: 2em;
+        }
+        #wrapper.toggled #sidebar-wrapper {
+            width: 550px;
+        }
+        .sidebar-nav {
+            width: 550px;
+            overflow-y: scroll;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+        }
+        span.glyphicon.glyphicon-menu-hamburger{
+            font-size: 3em;
+        }
+        #logo-img {
+            width: 40%;
+        }
+        #wrapper.toggled #sidebar-wrapper {
+            width: 0;
+        }
+        #sidebar-wrapper {
+            width: 550px;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+ 
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+           #profile-bar-list li a:first-child {
+            padding-left: 0;
+        } 
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+          #profile-bar-list li a:first-child {
+            padding-left: 0;
+        } 
+            #menu-toggle {
+            margin-left: 0;
+        }
+        #menu-icon {
+            margin-top: -0.9em;
+        }
+        #refer-a-friend, #date-time {
+            border-top: none;
+        }
+
+        #friends-updates, #friends-photos {
+            border-bottom: none;
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        p {
+            font-size: 1.6em;
+        }
+        #page-content-wrapper {
+            padding-bottom: 50px;
+        }
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }

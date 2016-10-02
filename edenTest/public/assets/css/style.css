@@ -1,0 +1,180 @@
+/** COLOUR PALLETTE
+* Peach -> #ff8b5c
+* Dark Brown/Peach -> #752100
+* Dark Red -> #af2323
+* Very Dark Red -> #630000
+* Bright Pink -> #e45c8e
+* Very Dark Pink -> #77002c
+*/
+
+/* *** GENERAL *** */
+body {
+    color: #FFF;
+    font-family: 'Droid Sans', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', serif;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+a {
+    color: #FFF;
+}
+div {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    margin-left: -25px
+}
+.row-margin {
+    height: 5px;
+    background-color: #FFF;
+}
+.left {
+    border-right: solid #FFF 3px;
+    min-height: 50px;
+}
+.right {
+    border-left: solid #FFF 3px;
+    min-height: 50px;
+}
+/* *** HEADER NAV BAR *** */
+.navbar-default {
+    background-color: #000;
+    height: 70px;
+}
+ul.nav.navbar-nav {
+    width: 200px;
+    margin-top: 3px;
+}
+.navbar-nav>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#small-menu ul li a h4 {
+    color: #FFF;
+}
+.navbar-default {
+    border: none;
+}
+.black {
+    color: #000;
+}
+.left-align {
+    text-align: left;
+}
+
+/* *** LOGO BRAND IMAGE *** */
+#logo-brand {
+    width: 100px;
+    margin-right: -10px
+}
+#logo-img {
+    width: 180%;
+    margin-top: -12px;
+}
+
+/* *** HEADER MENU ICON - HAMBURGER *** */
+.glyphicon-menu-hamburger {
+   font-size: 3em; 
+    color: #FFF;
+}
+#menu-icon {
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+/* *** SIMPLE SIDEBAR TOGGLE NAV *** */
+.sidebar-nav {
+    top: 60px;
+    padding-bottom: 4em;
+    text-align: left;
+}
+.sidebar-nav li a, .sidebar-nav > .sidebar-brand a {
+    color: #FFF;
+}
+.sidebar-nav > .sidebar-brand {
+    height: auto;
+}
+#wrapper.toggled #sidebar-wrapper {
+    width: 200px;
+}
+#wrapper.toggled {
+    padding-left: 200px;
+}
+
+/* *** PAGE CONTENT WRAPPER *** */
+#page-content-wrapper {
+    padding: 0;
+    padding-top: 6em;
+    padding-bottom: 1.5em;
+}
+
+/* *** PANELS *** */
+.panel-default {
+    border: none;
+}
+.panel {
+    margin-bottom: 0;
+}
+.panel-default>.panel-heading {
+    background-color: #ff8b5c;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #FFF;
+}
+.outline {
+    outline: white solid 2px;
+    padding: 5px
+}
+.panel-title a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* *** NAV FOOTER *** */
+#nav-footer{
+    background-color: #000;
+}
+#nav-footer a {
+    margin-left: 20px;
+    line-height: 40px;
+    color: #FFF;
+}
+
+/* ******************* */
+/* *** SIGNIN PAGE *** */
+/* ******************* */
+#signin-page {
+    margin-top:2.5em;
+}
+
+/* ******************* */
+/* **** DASHBOARD **** */
+/* ******************* */
+.main-content {
+    margin: -5px 10px 18px 10px;
+}
+.main-content .page-title {
+    background-color: #000;
+}
+.main-content .row, .main-content .centre-section-title, .centre-content {
+    background-color: #ff8b5c;
+}
+.main-content .left-section-title, .left-content {
+    background-color: #af2323;
+}
+.main-content .right-section-title, .right-content {
+    background-color: #e45c8e;
+}
+#centre-btns .row {
+    min-height: 50px;
+}
+#date {
+    margin: 0;
+}
+.panel-title h3, .panel-title h2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

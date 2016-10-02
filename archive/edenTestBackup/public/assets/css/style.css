@@ -1,0 +1,14 @@
+#profile-bar {
+   min-height:30px;
+}
+
+#nav-bar {
+    margin-bottom: 0;
+}
+
+#profile-bar-list li a:first-child {
+    padding-left: 0;
+} 
+#profile-bar-list li a p{
+    margin-bottom: 0;
+} 

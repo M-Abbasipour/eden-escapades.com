@@ -1,0 +1,146 @@
+/* ***** CUSTOM CSS ***** */
+
+/*theme colours 
+
+dark green: 4b6830
+light green: afc74b
+
+dark orange: #d67550
+light orange: #f3733f
+
+dark pink: #e45b8d
+light pink: #cb9898
+
+very dark red: #993333
+dark red: #ad1f25
+light red: #e82e2d
+
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Ubuntu';
+
+body {
+    font-family: 'Droid Sans', sans-serif;
+    background-color: white;
+    padding: 10px;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+h1, h2, h3, h4, h5, h6, .label {
+    font-family: 'Ubuntu', sans-serif;
+}
+#wrapper {
+    text-align: center;
+    padding: 1%;
+    margin-top: -60px;
+}
+.form-wrapper {
+    text-align: center;
+}
+.btn-default {
+    background-color: #cb9898;
+}
+.page-header{
+    padding-top: 15px;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    background-color: #fff;
+}
+.btn-default:hover {
+    background-color: #e45b8d;
+}
+.form-control, .btn {
+    border-radius: 0;
+}
+.form-control {
+    border: 1px solid #4b6830;
+}
+#response {
+    color: #ad1f25;
+}
+#logo {
+    margin-top: -50px;
+}
+#logo img {
+    margin: 0 auto;
+}
+.EETitle {
+    color: #993333;
+}
+#footer {
+    margin: 0 auto;
+}
+.navbar {
+    min-height: 30px;
+}
+.navbar-fixed-top {
+    height: 110px;
+}
+.navbar-fixed-bottom {
+    height:30px;
+
+}
+.navbar-nav {
+    margin:0;
+}
+.label {
+    font-weight: 400;
+    border-radius: 0;
+}
+.label-eden{
+    background-color: #4b6830;
+}
+.label-eden-b{
+    background-color: #d67550;
+}
+.navbar-default {
+    background-color:  #000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-nav>li>a, .nav>li>a, .navbar-nav>li>a {
+    padding: 5px 5px;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: #993333;
+}
+a:hover {
+    text-decoration: none;
+}
+
+#labels h3 {
+    margin: 0;
+}
+
+#footer {
+   
+    padding-top: 5px;
+}
+.btm-link, .btm-link a {
+    color: white;
+    padding: 6px;
+}
+
+@media screen and (min-width: 990px) {
+
+    body {
+        width: 60%;
+        margin-left:20%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .navbar-fixed-top {
+        height: 100px;
+    }
+    #logo {
+        margin-top: -150px;
+    }
+    #wrapper {
+        margin-top: -160px;
+    }
+    .navbar-fixed-bottom {
+        width: 60%;
+    }
+}
